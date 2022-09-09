@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Box Model</title>
+
+    <style>
+        * {
+            margin: 0;
+        }
+
+        .menu {
+            display: flex;
+            align-items: center;
+            height: 50px;
+            width: 100%;
+            background-color: white;
+            padding: 20px;
+        }
+
+        .content-menu {
+            display: flex;
+        }
+
+        .menu-items {
+            display: flex;
+            align-items: center;
+            margin-left: 50px;
+        }
+
+        .menu-items> a {
+            font-family: arial, helvetica, sans-serif;
+            font-size: 12px;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: white;
+            background-color: grey;
+            padding: 4px 10px;
+            border-radius: 3px;
+            margin: 2px;
+        }
+
+        .menu-items> a:hover {
+            color: aqua;
+            background-color: grey;
+            border-radius: 3px;
+            box-shadow: 0 0 4px white;
+        }
+
+        .content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+            width: 100vw;
+            background-color: white;
+        }
+
+        .text {
+            width: 500px;
+            background-color: yellow;
+            padding: 20px;
+            border-radius: 3px;
+            margin: 30px;
+            box-shadow: 0 0 5px white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="menu">
+        <div class="content-menu">
+            <div class="logo">
+                <img src="./comeia-01.png" width="140px">
+            </div>
+
+            <div class="menu-items">
+                <a href="#">Home</a>
+                <a href="#">Produtos</a>
+                <a href="#">Contato</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus perspiciatis voluptatibus corporis nisi
+            veritatis velit ullam id rerum nulla possimus assumenda, sapiente blanditiis quia doloremque a laborum
+            reiciendis officiis quae?
+            veritatis velit ullam id rerum nulla possimus assumenda, sapiente blanditiis quia doloremque a laborum
+            reiciendis officiis quae?
+            veritatis velit ullam id rerum nulla possimus assumenda, sapiente blanditiis quia doloremque a laborum
+            reiciendis officiis quae?
+        </div>
+    </div>
+</body>
+
+</html>

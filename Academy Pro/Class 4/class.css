@@ -1,0 +1,64 @@
+h1,
+h2,
+p {
+  color: orange;
+}
+
+nav {
+  font-size: 10px;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+  font-family: Arial !important;
+  font-size: 15px;
+  background-color: aqua;
+}
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+
+aside {
+  border: 1px solid orange;
+}
+
+footer {
+  background-color: orange;
+}
+footer p {
+  color: white;
+}
+
+.error, .attention, .success {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 80px;
+  border: 1px solid black;
+  border-radius: 3px;
+  font-family: Arial !important;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.success {
+  background-color: rgb(224, 255, 177);
+}
+
+.attention {
+  background-color: rgb(255, 203, 106);
+}
+
+.error {
+  background-color: rgb(255, 154, 154);
+}
+
+/*# sourceMappingURL=class.css.map */

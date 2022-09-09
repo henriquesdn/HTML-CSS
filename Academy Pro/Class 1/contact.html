@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Contato</title>
+    </head>
+
+    <body>
+        <header>
+            <img src="./html5.jpg" width="50px">
+
+            <nav>
+                <a href="./index.html">Home</a>
+                <a href="./content.html">Conteúdo</a>
+                <a href="./contact.html">Contato</a>
+            </nav>
+        </header>
+
+        <div>
+            <h1>Formulário de Contato</h1>
+            <h3>Envie suas informações</h3>
+
+            <form action="https://google.com" method="post">
+                <label for="firstName">Nome:</label>
+                <input type="text" name="firstName" required>
+
+                <label for="clientEmail">E-mail:</label>
+                <input type="email" name="clientEmail" placeholder="html@gmail.com" required>
+
+                <label for="ClientPass">Senha:</label>
+                <input type="password" name="clientPass" required>
+
+                <input type="date" required> 
+
+                <input type="url" name="url" value="https://">
+
+                <label for="range60">Range:</label>
+                <input type="range" name="range60" step="10" max="60">
+
+                <input type="file">
+
+                <input type="submit">
+
+                <input type="text" name="client" hidden value="cliente">
+            </form>
+        </div>
+
+        <hr>
+
+        <div>
+            <fieldset>
+                <legend>Estado Civil</legend>
+
+                <input type="radio" name="estCivil" id="solt" value="Solteiro">
+                <label for="solt">Solteiro</label>
+
+                <input type="radio" name="estCivil" id="casa" value="Casado">
+                <label for="casa">Casado</label>
+
+                <input type="radio" name="estCivil" id="divo" value="Divorciado">
+                <label for="divo">Divorciado</label>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Nível Escolar</legend>
+
+                <input type="radio" name="nivEscola" id="ensFundamental" value="Ensino Fundamental">
+                <label for="ensFundamental">Ensino Fundamental</label>
+
+                <input type="radio" name="nivEscola" id="ensMédio" value="Ensino Médio">
+                <label for="ensMédio">Ensino Médio</label>
+
+                <input type="radio" name="nivEscola" id="ensSuperior" value="Ensino Superior">
+                <label for="ensSuperior">Ensino Superior</label>
+            </fieldset>
+        </div>
+
+        <div>
+            <h3>Regiões de Atuação</h3>
+
+            <input type="checkbox" name="regAtuação" id="regNordeste" value="Nordeste">
+            <label for="">Região Nordeste</label>
+
+            <input type="checkbox" name="regAtuação" id="regNorte" value="Norte">
+            <label for="">Região Norte</label>
+
+            <input type="checkbox" name="regAtuação" id="regSudeste" value="Sudeste">
+            <label for="">Região Sudeste</label>
+
+        </div>
+
+        <label for="caixasMarcadas">CAIXAS MARCADAS:</label>
+        <input type="number" name="caixasMarcadas" value="0" min="0" max="3">
+    </body>
+
+</html>
