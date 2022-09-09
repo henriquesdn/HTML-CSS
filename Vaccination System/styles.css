@@ -1,0 +1,106 @@
+header {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100vw;
+    height: 50px;
+    border-bottom: 2px solid grey;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+nav> a{
+    color: #d21f3c;
+    margin: 5px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #add8e6;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 15px;
+    text-shadow: 2px 2px grey;
+}
+
+footer {
+    color: black;
+    font-size: 13px;
+}
+
+/* Flex box */
+.flexDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Logo do cabeçalho */
+.headerLogo {
+    height: 50px;
+    border-right: 4px solid grey;
+}
+
+/* Container que aloca o formulário */
+.formContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 350px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 6px black;
+}
+
+/* Container que aloca os campos do formulário */
+.formFieldsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+/* Campo de formulário */
+.formField {
+    margin: 5px;
+}
+
+.vacPerson,
+.vacUnity {
+    width: 400px;
+}
+
+.vacCPF {
+    width: 200px;
+}
+
+.vacName {
+    margin: 0px 0px 0px 5px;
+}
+
+.vacDate {
+    width: 159px;
+}
+
+/* Botão de envio do formulário */
+.sendButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    margin: 5px;
+}
